@@ -8,7 +8,6 @@
 #         subprocess.check_call(["pip", "install", package], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
-# # Example usage
 # install_if_needed("requests")
 # install_if_needed("selenium")
 # install_if_needed("webdriver-manager")
@@ -27,7 +26,6 @@ from qt_material import apply_stylesheet
 import time
 from pytube import YouTube
 
-# Subclass QMainWindow to customize your application's main window
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
